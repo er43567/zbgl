@@ -33,8 +33,8 @@ public class TestSpring extends TestCase {
 		f.set(service, dao);
 	}
 	
-	public void test1() {
-		System.out.println("1");
+	public static void test(String one) {
+		System.out.println(one);
 	}
 	
 }
