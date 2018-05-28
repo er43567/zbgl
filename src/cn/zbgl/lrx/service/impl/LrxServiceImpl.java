@@ -10,6 +10,7 @@ import cn.zbgl.lrx.service.LrxService;
 @Service("lrxService")
 @Transactional
 public class LrxServiceImpl implements LrxService {
+	
 	@Autowired
 	LrxDao dao;
 	

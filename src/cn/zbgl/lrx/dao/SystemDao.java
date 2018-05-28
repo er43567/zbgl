@@ -8,8 +8,6 @@ import cn.zbgl.bean.Role;
 import cn.zbgl.bean.User;
 import cn.zbgl.system.vo.DepartmentAndUserList;
 
-import cn.zbgl.adapters.IDao;
-
-public interface SystemDao extends IDao{
+public interface SystemDao {
 	void testDao();
 }

@@ -3,12 +3,11 @@ package cn.zbgl.system.dao;
 import java.util.List;
 import java.util.Map;
 
-import cn.zbgl.adapters.IDao;
 import cn.zbgl.bean.Role;
 import cn.zbgl.bean.User;
 import cn.zbgl.system.vo.DepartmentAndUserList;
 
-public interface SystemDao extends IDao {
+public interface SystemDao {
 	/**
 	 * 通过用户ID获得用户对象
 	 * 

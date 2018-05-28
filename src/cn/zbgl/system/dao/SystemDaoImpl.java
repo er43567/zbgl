@@ -3,7 +3,6 @@ package cn.zbgl.system.dao;
 import cn.zbgl.adapters.DaoAdapter;
 import cn.zbgl.system.dao.SystemDao;
 import cn.zbgl.system.vo.DepartmentAndUserList;
-import test.lrx.TestSpring;
 
 import java.util.List;
 import java.util.Map;
@@ -59,7 +58,6 @@ public class SystemDaoImpl extends DaoAdapter  implements SystemDao {
 	public List<Map<String, String>> getDepartment() {
 		// TODO Auto-generated method stub
 		System.out.println("方法为空");
-		TestSpring.test("systemdaoi");
 		return null;
 	}
 

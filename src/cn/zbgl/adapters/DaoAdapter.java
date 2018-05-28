@@ -18,11 +18,6 @@ public class DaoAdapter implements IDaoAdapter {
 	@Autowired
 	protected HibernateTemplate hibernateTemplate;
 	
-	@Override
-	public IDaoAdapter getDaoAdapter() {
-		return this;
-	}
-	
 	public <T> List<T> findByHql(String hql, Object[] vals, int from_id, int len) throws Exception {
 		Session session = hibernateTemplate.getSessionFactory().openSession();
 		org.hibernate.Transaction tx = session.beginTransaction(); 

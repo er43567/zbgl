@@ -3,7 +3,7 @@ package cn.zbgl.adapters;
 import java.io.Serializable;
 import java.util.List;
 
-public interface IDaoAdapter extends IDao {
+public interface IDaoAdapter {
 	
 	/**
 	 * 通过HQL和SQL查询
